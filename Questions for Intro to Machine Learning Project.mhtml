@@ -1,0 +1,505 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://docs.google.com/document/d/1NDgi1PrNJP7WTbfSUuRUnz8yzs5nGVTSzpO7oeNTEWA/pub
+Subject: Questions for Intro to Machine Learning Project
+Date: Sun, 7 May 2023 18:28:16 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--sO90fpcRsdi38WXZx32RRgUqZupuTjameVNt7lgwQV----"
+
+
+------MultipartBoundary--sO90fpcRsdi38WXZx32RRgUqZupuTjameVNt7lgwQV----
+Content-Type: text/html
+Content-ID: <frame-517771E4E2E7655A2191DB7E02437CA7@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.google.com/document/d/1NDgi1PrNJP7WTbfSUuRUnz8yzs5nGVTSzpO7oeNTEWA/pub
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
+"cid:css-d5c7b8f8-2a6e-4e43-8c51-10a5a0ac5721@mhtml.blink" /><link rel=3D"s=
+tylesheet" type=3D"text/css" href=3D"cid:css-a58d627a-fb10-40a0-804a-4a74d9=
+c7454a@mhtml.blink" /><title>Questions for Intro to Machine Learning Projec=
+t</title><link rel=3D"shortcut icon" href=3D"https://ssl.gstatic.com/docs/d=
+ocuments/images/kix-favicon7.ico"><meta name=3D"referrer" content=3D"strict=
+-origin-when-cross-origin"></head><body><div id=3D"banners"><div id=3D"publ=
+ish-banner"><span id=3D"publish-banner-icon"><svg xmlns=3D"http://www.w3.or=
+g/2000/svg" height=3D"24px" viewBox=3D"0 0 24 24" width=3D"24px"><path d=3D=
+"M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-=
+10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"=
+></path></svg></span><div id=3D"publish-banner-text">Published using Google=
+ Docs</div><div id=3D"publish-banner-buttons"><span><a target=3D"_blank" ti=
+tle=3D"Learn more" href=3D"https://support.google.com/docs/answer/183965">L=
+earn More</a></span><span><a href=3D"https://drive.google.com/u/0/abuse?id=
+=3DAKkXjoxAJVAeEZY7dDb-unuMhFdCyfexSz0oV4gA3QofaUQLIU18rAcgahe4uCr3Pc0HLFK4=
+00Qk5uMBse_wOoE:0">Report Abuse</a></span></div></div><div id=3D"title-bann=
+er"><div id=3D"title">Questions for Intro to Machine Learning Project</div>=
+<div id=3D"interval"><span>Updated automatically every 5 minutes</span></di=
+v></div></div><div id=3D"contents"><div class=3D"c6 doc-content"><p class=
+=3D"c1"><span class=3D"c5">Enron Submission Free-Response Questions</span><=
+/p><p class=3D"c1 c2"><span class=3D"c0"></span></p><p class=3D"c1"><span c=
+lass=3D"c0">A critical part of machine learning is making sense of your ana=
+lysis process and communicating it to others. The questions below will help=
+ us understand your decision-making process and allow us to give feedback o=
+n your project. Please answer each question; your answers should be about 1=
+-2 paragraphs per question. If you find yourself writing much more than tha=
+t, take a step back and see if you can simplify your response!</span></p><p=
+ class=3D"c1 c2"><span class=3D"c0"></span></p><p class=3D"c1"><span>When y=
+our evaluator looks at your responses, he or she will use a specific list o=
+f rubric items to assess your answers. Here is the link to that rubric: [</=
+span><span class=3D"c8"><a class=3D"c3" href=3D"https://www.google.com/url?=
+q=3Dhttps://review.udacity.com/%23!/projects/3174288624/rubric&amp;sa=3DD&a=
+mp;source=3Deditors&amp;ust=3D1683487056146459&amp;usg=3DAOvVaw13MCExKws3BP=
+xcfE7nRbex">Link</a></span><span class=3D"c0">] Each question has one or mo=
+re specific rubric items associated with it, so before you submit an answer=
+, take a look at that part of the rubric. If your response does not meet ex=
+pectations for all rubric points, you will be asked to revise and resubmit =
+your project. Make sure that your responses are detailed enough that the ev=
+aluator will be able to understand the steps you took and your thought proc=
+esses as you went through the data analysis.</span></p><p class=3D"c1 c2"><=
+span class=3D"c0"></span></p><p class=3D"c1"><span class=3D"c0">Once you=E2=
+=80=99ve submitted your responses, your coach will take a look and may ask =
+a few more focused follow-up questions on one or more of your answers. &nbs=
+p;</span></p><p class=3D"c1 c2"><span class=3D"c0"></span></p><p class=3D"c=
+1"><span>We can=E2=80=99t wait to see what you=E2=80=99ve put together for =
+this project!</span></p><p class=3D"c1 c2"><span class=3D"c0"></span></p><p=
+ class=3D"c1 c2"><span class=3D"c0"></span></p><ol class=3D"c7 lst-kix_otxx=
+p6dydhwn-0 start" start=3D"1"><li class=3D"c1 c4 li-bullet-0"><span class=
+=3D"c0">Summarize for us the goal of this project and how machine learning =
+is useful in trying to accomplish it. As part of your answer, give some bac=
+kground on the dataset and how it can be used to answer the project questio=
+n. Were there any outliers in the data when you got it, and how did you han=
+dle those? &nbsp;[relevant rubric items: =E2=80=9Cdata exploration=E2=80=9D=
+, =E2=80=9Coutlier investigation=E2=80=9D]</span></li></ol><p class=3D"c1 c=
+2"><span class=3D"c0"></span></p><ol class=3D"c7 lst-kix_otxxp6dydhwn-0" st=
+art=3D"2"><li class=3D"c1 c4 li-bullet-0"><span class=3D"c0">What features =
+did you end up using in your POI identifier, and what selection process did=
+ you use to pick them? Did you have to do any scaling? Why or why not? As p=
+art of the assignment, you should attempt to engineer your own feature that=
+ does not come ready-made in the dataset -- explain what feature you tried =
+to make, and the rationale behind it. (You do not necessarily have to use i=
+t in the final analysis, only engineer and test it.) In your feature select=
+ion step, if you used an algorithm like a decision tree, please also give t=
+he feature importances of the features that you use, and if you used an aut=
+omated feature selection function like SelectKBest, please report the featu=
+re scores and reasons for your choice of parameter values. &nbsp;[relevant =
+rubric items: =E2=80=9Ccreate new features=E2=80=9D, =E2=80=9Cintelligently=
+ select features=E2=80=9D, =E2=80=9Cproperly scale features=E2=80=9D]</span=
+></li></ol><p class=3D"c1 c2"><span class=3D"c0"></span></p><ol class=3D"c7=
+ lst-kix_otxxp6dydhwn-0" start=3D"3"><li class=3D"c1 c4 li-bullet-0"><span =
+class=3D"c0">What algorithm did you end up using? What other one(s) did you=
+ try? How did model performance differ between algorithms? &nbsp;[relevant =
+rubric item: =E2=80=9Cpick an algorithm=E2=80=9D]</span></li></ol><p class=
+=3D"c1 c2"><span class=3D"c0"></span></p><ol class=3D"c7 lst-kix_otxxp6dydh=
+wn-0" start=3D"4"><li class=3D"c1 c4 li-bullet-0"><span class=3D"c0">What d=
+oes it mean to tune the parameters of an algorithm, and what can happen if =
+you don=E2=80=99t do this well? &nbsp;How did you tune the parameters of yo=
+ur particular algorithm? What parameters did you tune? (Some algorithms do =
+not have parameters that you need to tune -- if this is the case for the on=
+e you picked, identify and briefly explain how you would have done it for t=
+he model that was not your final choice or a different model that does util=
+ize parameter tuning, e.g. a decision tree classifier). &nbsp;[relevant rub=
+ric items: =E2=80=9Cdiscuss parameter tuning=E2=80=9D, =E2=80=9Ctune the al=
+gorithm=E2=80=9D]</span></li></ol><p class=3D"c1 c2"><span class=3D"c0"></s=
+pan></p><ol class=3D"c7 lst-kix_otxxp6dydhwn-0" start=3D"5"><li class=3D"c1=
+ c4 li-bullet-0"><span class=3D"c0">What is validation, and what=E2=80=99s =
+a classic mistake you can make if you do it wrong? How did you validate you=
+r analysis? &nbsp;[relevant rubric items: =E2=80=9Cdiscuss validation=E2=80=
+=9D, =E2=80=9Cvalidation strategy=E2=80=9D]</span></li></ol><p class=3D"c1 =
+c2"><span class=3D"c0"></span></p><ol class=3D"c7 lst-kix_otxxp6dydhwn-0" s=
+tart=3D"6"><li class=3D"c1 c4 li-bullet-0"><span class=3D"c0">Give at least=
+ 2 evaluation metrics and your average performance for each of them. &nbsp;=
+Explain an interpretation of your metrics that says something human-underst=
+andable about your algorithm=E2=80=99s performance. [relevant rubric item: =
+=E2=80=9Cusage of evaluation metrics=E2=80=9D]</span></li></ol><p class=3D"=
+c1 c2"><span class=3D"c0"></span></p><p class=3D"c1 c2"><span class=3D"c0">=
+</span></p></div></div></body></html>
+------MultipartBoundary--sO90fpcRsdi38WXZx32RRgUqZupuTjameVNt7lgwQV----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d5c7b8f8-2a6e-4e43-8c51-10a5a0ac5721@mhtml.blink
+
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css?family=3DGoogle+Sans");
+
+@import url("https://fonts.googleapis.com/css?family=3DRoboto");
+
+body { font-family: Roboto, arial, sans, sans-serif; margin: 0px; }
+
+iframe { border: 0px; height: 100%; width: 100%; }
+
+#banners { align-items: center; background: white; display: block; justify-=
+content: space-between; position: fixed; top: 0px; width: 100%; z-index: 10=
+0; }
+
+#banners #publish-banner { background-color: rgb(232, 240, 254); border-bot=
+tom: 1px solid rgb(204, 204, 204); color: rgb(32, 33, 36); display: flex; f=
+lex: 1 1 0%; height: 60px; width: 100%; }
+
+#publish-banner-icon { display: flex; fill: rgb(25, 103, 210); margin: auto=
+ 20px; }
+
+#publish-banner-text { flex-grow: 1; margin: auto 0px; overflow: hidden; te=
+xt-overflow: ellipsis; white-space: nowrap; }
+
+#publish-banner-buttons { margin: auto 25px auto 0px; }
+
+#publish-banner-buttons span { align-self: center; background-color: inheri=
+t; border: none; font-family: "Google Sans", Roboto, RobotoDraft, Helvetica=
+, Arial, sans-serif; margin: 0px 16px 0px 32px; }
+
+#publish-banner-buttons a { color: rgb(25, 103, 210); cursor: pointer; font=
+-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif; =
+font-size: 14px; font-weight: 500; line-height: 24px; text-decoration: none=
+; }
+
+#banners #title-banner { background: white; border-bottom: 1px solid rgb(20=
+4, 204, 204); display: flex; flex: 1 1 0%; height: 60px; width: 100%; }
+
+#banners #title-banner #title { flex-grow: 1; font-family: "Google Sans"; f=
+ont-size: large; margin: auto 0px auto 20px; overflow: hidden; text-overflo=
+w: ellipsis; white-space: nowrap; width: 70%; }
+
+#banners #title-banner #interval { margin: auto 25px auto 0px; font-family:=
+ Roboto; font-size: small; }
+
+#footer { background: rgb(240, 240, 240); border-bottom: 1px solid rgb(204,=
+ 204, 204); bottom: 0px; font-family: Roboto; font-size: small; padding: 10=
+px; position: fixed; text-align: center; width: 100%; }
+
+@media only screen and (max-device-width: 800px) {
+  #banners #title-banner { border-bottom-width: 5px; height: auto; display:=
+ block; }
+  #banners #title-banner #title { font-size: 3em; margin: auto 0px auto 20p=
+x; width: 90%; }
+  #banners #title-banner #interval { font-size: 1.5em; margin: 10px 0px aut=
+o 25px; }
+  #footer { font-size: 2em; }
+}
+
+.dash { padding: 0px 6px; }
+
+#contents { padding: 100px 20% 50px; }
+
+@media only screen and (max-device-width: 800px) {
+  #contents { padding: 150px 5% 80px; }
+}
+------MultipartBoundary--sO90fpcRsdi38WXZx32RRgUqZupuTjameVNt7lgwQV----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css?family=Google+Sans
+
+@charset "utf-8";
+
+@font-face { font-family: "Google Sans"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/googlesans/v46/4Ua_rENHsxJlGDuGo1=
+OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJl1pynSEg.woff2") fo=
+rmat("woff2"); unicode-range: U+308, U+530-58F, U+2010, U+2024, U+25CC, U+F=
+B13-FB17; }
+
+@font-face { font-family: "Google Sans"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/googlesans/v46/4Ua_rENHsxJlGDuGo1=
+OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJlhpynSEg.woff2") fo=
+rmat("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+211=
+6; }
+
+@font-face { font-family: "Google Sans"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/googlesans/v46/4Ua_rENHsxJlGDuGo1=
+OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJlkpynSEg.woff2") fo=
+rmat("woff2"); unicode-range: U+900-97F, U+1CD0-1CF9, U+200C-200D, U+20A8, =
+U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF; }
+
+@font-face { font-family: "Google Sans"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/googlesans/v46/4Ua_rENHsxJlGDuGo1=
+OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJl6pynSEg.woff2") fo=
+rmat("woff2"); unicode-range: U+589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF,=
+ U+2D00-2D2F; }
+
+@font-face { font-family: "Google Sans"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/googlesans/v46/4Ua_rENHsxJlGDuGo1=
+OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJlmpynSEg.woff2") fo=
+rmat("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Google Sans"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/googlesans/v46/4Ua_rENHsxJlGDuGo1=
+OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJlGpynSEg.woff2") fo=
+rmat("woff2"); unicode-range: U+964-965, U+A01-A76, U+200C-200D, U+20B9, U+=
+25CC, U+262C, U+A830-A839; }
+
+@font-face { font-family: "Google Sans"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/googlesans/v46/4Ua_rENHsxJlGDuGo1=
+OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJlnpynSEg.woff2") fo=
+rmat("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1=
+D-FB4F; }
+
+@font-face { font-family: "Google Sans"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/googlesans/v46/4Ua_rENHsxJlGDuGo1=
+OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJlspynSEg.woff2") fo=
+rmat("woff2"); unicode-range: U+E81-EDF, U+25CC; }
+
+@font-face { font-family: "Google Sans"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/googlesans/v46/4Ua_rENHsxJlGDuGo1=
+OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJlzpynSEg.woff2") fo=
+rmat("woff2"); unicode-range: U+964-965, U+B82-BFA, U+200C-200D, U+20B9, U+=
+25CC; }
+
+@font-face { font-family: "Google Sans"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/googlesans/v46/4Ua_rENHsxJlGDuGo1=
+OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJlxpynSEg.woff2") fo=
+rmat("woff2"); unicode-range: U+E01-E5B, U+200C-200D, U+25CC; }
+
+@font-face { font-family: "Google Sans"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/googlesans/v46/4Ua_rENHsxJlGDuGo1=
+OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJlqpynSEg.woff2") fo=
+rmat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U=
++1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-=
+1EF9, U+20AB; }
+
+@font-face { font-family: "Google Sans"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/googlesans/v46/4Ua_rENHsxJlGDuGo1=
+OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJlrpynSEg.woff2") fo=
+rmat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, =
+U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-=
+A7FF; }
+
+@font-face { font-family: "Google Sans"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/googlesans/v46/4Ua_rENHsxJlGDuGo1=
+OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJllpyk.woff2") forma=
+t("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2D=
+A, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,=
+ U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--sO90fpcRsdi38WXZx32RRgUqZupuTjameVNt7lgwQV----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css?family=Roboto
+
+@charset "utf-8";
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2=
+") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2=
+DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKOzY.woff2=
+") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, =
+U+2116; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKOzY.woff2=
+") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKOzY.woff2=
+") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKOzY.woff2=
+") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-1=
+69, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+=
+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKOzY.woff2=
+") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1=
+E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+=
+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2") =
+format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6,=
+ U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+=
+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--sO90fpcRsdi38WXZx32RRgUqZupuTjameVNt7lgwQV----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a58d627a-fb10-40a0-804a-4a74d9c7454a@mhtml.blink
+
+@charset "utf-8";
+
+ol.lst-kix_otxxp6dydhwn-4.start { counter-reset: lst-ctn-kix_otxxp6dydhwn-4=
+ 0; }
+
+.lst-kix_otxxp6dydhwn-5 > li { counter-increment: lst-ctn-kix_otxxp6dydhwn-=
+5 1; }
+
+.lst-kix_otxxp6dydhwn-8 > li { counter-increment: lst-ctn-kix_otxxp6dydhwn-=
+8 1; }
+
+ol.lst-kix_otxxp6dydhwn-1.start { counter-reset: lst-ctn-kix_otxxp6dydhwn-1=
+ 0; }
+
+.lst-kix_otxxp6dydhwn-6 > li::before { content: "" counter(lst-ctn-kix_otxx=
+p6dydhwn-0) "." counter(lst-ctn-kix_otxxp6dydhwn-1) "." counter(lst-ctn-kix=
+_otxxp6dydhwn-2) "." counter(lst-ctn-kix_otxxp6dydhwn-3) "." counter(lst-ct=
+n-kix_otxxp6dydhwn-4) "." counter(lst-ctn-kix_otxxp6dydhwn-5) "." counter(l=
+st-ctn-kix_otxxp6dydhwn-6) ". "; }
+
+ol.lst-kix_otxxp6dydhwn-6.start { counter-reset: lst-ctn-kix_otxxp6dydhwn-6=
+ 0; }
+
+.lst-kix_otxxp6dydhwn-7 > li::before { content: "" counter(lst-ctn-kix_otxx=
+p6dydhwn-0) "." counter(lst-ctn-kix_otxxp6dydhwn-1) "." counter(lst-ctn-kix=
+_otxxp6dydhwn-2) "." counter(lst-ctn-kix_otxxp6dydhwn-3) "." counter(lst-ct=
+n-kix_otxxp6dydhwn-4) "." counter(lst-ctn-kix_otxxp6dydhwn-5) "." counter(l=
+st-ctn-kix_otxxp6dydhwn-6) "." counter(lst-ctn-kix_otxxp6dydhwn-7) ". "; }
+
+.lst-kix_otxxp6dydhwn-8 > li::before { content: "" counter(lst-ctn-kix_otxx=
+p6dydhwn-0) "." counter(lst-ctn-kix_otxxp6dydhwn-1) "." counter(lst-ctn-kix=
+_otxxp6dydhwn-2) "." counter(lst-ctn-kix_otxxp6dydhwn-3) "." counter(lst-ct=
+n-kix_otxxp6dydhwn-4) "." counter(lst-ctn-kix_otxxp6dydhwn-5) "." counter(l=
+st-ctn-kix_otxxp6dydhwn-6) "." counter(lst-ctn-kix_otxxp6dydhwn-7) "." coun=
+ter(lst-ctn-kix_otxxp6dydhwn-8) ". "; }
+
+.lst-kix_otxxp6dydhwn-2 > li { counter-increment: lst-ctn-kix_otxxp6dydhwn-=
+2 1; }
+
+.lst-kix_otxxp6dydhwn-0 > li { counter-increment: lst-ctn-kix_otxxp6dydhwn-=
+0 1; }
+
+.lst-kix_otxxp6dydhwn-6 > li { counter-increment: lst-ctn-kix_otxxp6dydhwn-=
+6 1; }
+
+li.li-bullet-0::before { margin-left: -18pt; white-space: nowrap; display: =
+inline-block; min-width: 18pt; }
+
+ol.lst-kix_otxxp6dydhwn-3.start { counter-reset: lst-ctn-kix_otxxp6dydhwn-3=
+ 0; }
+
+.lst-kix_otxxp6dydhwn-3 > li { counter-increment: lst-ctn-kix_otxxp6dydhwn-=
+3 1; }
+
+.lst-kix_otxxp6dydhwn-5 > li::before { content: "" counter(lst-ctn-kix_otxx=
+p6dydhwn-0) "." counter(lst-ctn-kix_otxxp6dydhwn-1) "." counter(lst-ctn-kix=
+_otxxp6dydhwn-2) "." counter(lst-ctn-kix_otxxp6dydhwn-3) "." counter(lst-ct=
+n-kix_otxxp6dydhwn-4) "." counter(lst-ctn-kix_otxxp6dydhwn-5) ". "; }
+
+.lst-kix_otxxp6dydhwn-4 > li { counter-increment: lst-ctn-kix_otxxp6dydhwn-=
+4 1; }
+
+ol.lst-kix_otxxp6dydhwn-7.start { counter-reset: lst-ctn-kix_otxxp6dydhwn-7=
+ 0; }
+
+.lst-kix_otxxp6dydhwn-4 > li::before { content: "" counter(lst-ctn-kix_otxx=
+p6dydhwn-0) "." counter(lst-ctn-kix_otxxp6dydhwn-1) "." counter(lst-ctn-kix=
+_otxxp6dydhwn-2) "." counter(lst-ctn-kix_otxxp6dydhwn-3) "." counter(lst-ct=
+n-kix_otxxp6dydhwn-4) ". "; }
+
+ol.lst-kix_otxxp6dydhwn-8 { list-style-type: none; }
+
+ol.lst-kix_otxxp6dydhwn-7 { list-style-type: none; }
+
+ol.lst-kix_otxxp6dydhwn-8.start { counter-reset: lst-ctn-kix_otxxp6dydhwn-8=
+ 0; }
+
+ol.lst-kix_otxxp6dydhwn-2.start { counter-reset: lst-ctn-kix_otxxp6dydhwn-2=
+ 0; }
+
+ol.lst-kix_otxxp6dydhwn-6 { list-style-type: none; }
+
+.lst-kix_otxxp6dydhwn-1 > li { counter-increment: lst-ctn-kix_otxxp6dydhwn-=
+1 1; }
+
+ol.lst-kix_otxxp6dydhwn-5 { list-style-type: none; }
+
+.lst-kix_otxxp6dydhwn-3 > li::before { content: "" counter(lst-ctn-kix_otxx=
+p6dydhwn-0) "." counter(lst-ctn-kix_otxxp6dydhwn-1) "." counter(lst-ctn-kix=
+_otxxp6dydhwn-2) "." counter(lst-ctn-kix_otxxp6dydhwn-3) ". "; }
+
+ol.lst-kix_otxxp6dydhwn-4 { list-style-type: none; }
+
+ol.lst-kix_otxxp6dydhwn-3 { list-style-type: none; }
+
+ol.lst-kix_otxxp6dydhwn-2 { list-style-type: none; }
+
+ol.lst-kix_otxxp6dydhwn-1 { list-style-type: none; }
+
+.lst-kix_otxxp6dydhwn-0 > li::before { content: "" counter(lst-ctn-kix_otxx=
+p6dydhwn-0) ". "; }
+
+ol.lst-kix_otxxp6dydhwn-0 { list-style-type: none; }
+
+ol.lst-kix_otxxp6dydhwn-0.start { counter-reset: lst-ctn-kix_otxxp6dydhwn-0=
+ 0; }
+
+.lst-kix_otxxp6dydhwn-2 > li::before { content: "" counter(lst-ctn-kix_otxx=
+p6dydhwn-0) "." counter(lst-ctn-kix_otxxp6dydhwn-1) "." counter(lst-ctn-kix=
+_otxxp6dydhwn-2) ". "; }
+
+.lst-kix_otxxp6dydhwn-1 > li::before { content: "" counter(lst-ctn-kix_otxx=
+p6dydhwn-0) "." counter(lst-ctn-kix_otxxp6dydhwn-1) ". "; }
+
+ol.lst-kix_otxxp6dydhwn-5.start { counter-reset: lst-ctn-kix_otxxp6dydhwn-5=
+ 0; }
+
+.lst-kix_otxxp6dydhwn-7 > li { counter-increment: lst-ctn-kix_otxxp6dydhwn-=
+7 1; }
+
+ol { margin: 0px; padding: 0px; }
+
+table td, table th { padding: 0px; }
+
+.c5 { color: rgb(0, 0, 0); font-weight: 700; text-decoration: none; vertica=
+l-align: baseline; font-size: 11pt; font-family: Arial; font-style: normal;=
+ }
+
+.c0 { color: rgb(0, 0, 0); font-weight: 400; text-decoration: none; vertica=
+l-align: baseline; font-size: 11pt; font-family: Arial; font-style: normal;=
+ }
+
+.c1 { padding-top: 0pt; padding-bottom: 0pt; line-height: 1.15; orphans: 2;=
+ widows: 2; text-align: left; }
+
+.c8 { text-decoration-skip-ink: none; color: rgb(17, 85, 204); font-weight:=
+ 700; text-decoration: underline; }
+
+.c6 { background-color: rgb(255, 255, 255); max-width: 468pt; padding: 72pt=
+; }
+
+.c4 { margin-left: 36pt; padding-left: 0pt; }
+
+.c7 { padding: 0px; margin: 0px; }
+
+.c3 { color: inherit; text-decoration: inherit; }
+
+.c2 { height: 11pt; }
+
+.title { padding-top: 0pt; color: rgb(0, 0, 0); font-size: 21pt; padding-bo=
+ttom: 0pt; font-family: "Trebuchet MS"; line-height: 1.15; break-after: avo=
+id; orphans: 2; widows: 2; text-align: left; }
+
+.subtitle { padding-top: 0pt; color: rgb(102, 102, 102); font-size: 13pt; p=
+adding-bottom: 10pt; font-family: "Trebuchet MS"; line-height: 1.15; break-=
+after: avoid; font-style: italic; orphans: 2; widows: 2; text-align: left; =
+}
+
+li { color: rgb(0, 0, 0); font-size: 11pt; font-family: Arial; }
+
+p { margin: 0px; color: rgb(0, 0, 0); font-size: 11pt; font-family: Arial; =
+}
+
+h1 { padding-top: 10pt; color: rgb(0, 0, 0); font-size: 16pt; padding-botto=
+m: 0pt; font-family: "Trebuchet MS"; line-height: 1.15; break-after: avoid;=
+ orphans: 2; widows: 2; text-align: left; }
+
+h2 { padding-top: 10pt; color: rgb(0, 0, 0); font-weight: 700; font-size: 1=
+3pt; padding-bottom: 0pt; font-family: "Trebuchet MS"; line-height: 1.15; b=
+reak-after: avoid; orphans: 2; widows: 2; text-align: left; }
+
+h3 { padding-top: 8pt; color: rgb(102, 102, 102); font-weight: 700; font-si=
+ze: 12pt; padding-bottom: 0pt; font-family: "Trebuchet MS"; line-height: 1.=
+15; break-after: avoid; orphans: 2; widows: 2; text-align: left; }
+
+h4 { padding-top: 8pt; color: rgb(102, 102, 102); text-decoration: underlin=
+e; font-size: 11pt; padding-bottom: 0pt; line-height: 1.15; break-after: av=
+oid; text-decoration-skip-ink: none; font-family: "Trebuchet MS"; orphans: =
+2; widows: 2; text-align: left; }
+
+h5 { padding-top: 8pt; color: rgb(102, 102, 102); font-size: 11pt; padding-=
+bottom: 0pt; font-family: "Trebuchet MS"; line-height: 1.15; break-after: a=
+void; orphans: 2; widows: 2; text-align: left; }
+
+h6 { padding-top: 8pt; color: rgb(102, 102, 102); font-size: 11pt; padding-=
+bottom: 0pt; font-family: "Trebuchet MS"; line-height: 1.15; break-after: a=
+void; font-style: italic; orphans: 2; widows: 2; text-align: left; }
+------MultipartBoundary--sO90fpcRsdi38WXZx32RRgUqZupuTjameVNt7lgwQV------
