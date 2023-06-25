@@ -132,9 +132,42 @@ labels, features = targetFeatureSplit(data)
 ### you'll need to use Pipelines. For more info:
 ### http://scikit-learn.org/stable/modules/pipeline.html
 
-# Provided to give you a starting point. Try a variety of classifiers.
+# # Provided to give you a starting point. Try a variety of classifiers.
+# from sklearn.naive_bayes import GaussianNB
+# clf = GaussianNB()
+
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
-clf = GaussianNB()
+
+# Split the data into training and testing sets
+features_train, features_test, labels_train, labels_test = train_test_split(features, labels, test_size=0.2, random_state=42)
+
+# Create a pipeline with feature scaling and classifier
+pipeline = Pipeline([
+    ('scaler', StandardScaler()),
+    ('classifier', None)
+])
+
+# Define a list of classifiers to try
+classifiers = [
+    ('Support Vector Machine', SVC()),
+    ('Random Forest', RandomForestClassifier()),
+    ('Logistic Regression', LogisticRegression()),
+    ('Gaussian Naive Bayes', GaussianNB())
+]
+
+# Iterate over the classifiers and fit the pipeline
+for name, classifier in classifiers:
+    print('Training', name)
+    pipeline.set_params(classifier=classifier)
+    pipeline.fit(features_train, labels_train)
+    accuracy = pipeline.score(features_test, labels_test)
+    print('Accuracy:', accuracy)
 
 ### Task 5: Tune your classifier to achieve better than .3 precision and recall 
 ### using our testing script. Check the tester.py script in the final project
