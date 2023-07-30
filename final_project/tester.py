@@ -15,7 +15,8 @@ import sys
 from sklearn.model_selection import StratifiedShuffleSplit
 import os
 
-sys.path.append(os.path.abspath(("../tools/")))
+sys.path.insert(0, 'C:/Users/WorkStation/Documents/GitHub/ud120-projects/tools')
+# sys.path.append(os.path.abspath(("../tools/")))
 from feature_format import featureFormat, targetFeatureSplit
 
 PERF_FORMAT_STRING = "\
@@ -27,22 +28,28 @@ RESULTS_FORMAT_STRING = "\tTotal predictions: {:4d}\tTrue positives: {:4d}\tFals
 def test_classifier(clf, dataset, feature_list, folds = 1000):
     data = featureFormat(dataset, feature_list, sort_keys = True)
     labels, features = targetFeatureSplit(data)
-    cv = StratifiedShuffleSplit(labels, folds, random_state = 42)
+    # cv = StratifiedShuffleSplit(labels, folds, random_state = 42)
+    cv = StratifiedShuffleSplit(n_splits=folds, random_state=42) # Error resolution of TypeError: 'StratifiedShuffleSplit' object is not iterable
     true_negatives = 0
     false_negatives = 0
     true_positives = 0
     false_positives = 0
-    for train_idx, test_idx in cv: 
-        features_train = []
-        features_test  = []
-        labels_train   = []
-        labels_test    = []
-        for ii in train_idx:
-            features_train.append( features[ii] )
-            labels_train.append( labels[ii] )
-        for jj in test_idx:
-            features_test.append( features[jj] )
-            labels_test.append( labels[jj] )
+    # for train_idx, test_idx in cv: 
+    #     features_train = []
+    #     features_test  = []
+    #     labels_train   = []
+    #     labels_test    = []
+    #     for ii in train_idx:
+    #         features_train.append( features[ii] )
+    #         labels_train.append( labels[ii] )
+    #     for jj in test_idx:
+    #         features_test.append( features[jj] )
+    #         labels_test.append( labels[jj] )
+    for train_idx, test_idx in cv.split(features, labels):
+        features_train = [features[ii] for ii in train_idx]
+        features_test = [features[jj] for jj in test_idx]
+        labels_train = [labels[ii] for ii in train_idx]
+        labels_test = [labels[jj] for jj in test_idx]
         
         ### fit the classifier using training set, and test on test set
         clf.fit(features_train, labels_train)
@@ -76,9 +83,10 @@ def test_classifier(clf, dataset, feature_list, folds = 1000):
         print("Got a divide by zero when trying out:", clf)
         print("Precision or recall may be undefined due to a lack of true positive predicitons.")
 
-CLF_PICKLE_FILENAME = "my_classifier.pkl"
-DATASET_PICKLE_FILENAME = "my_dataset.pkl"
-FEATURE_LIST_FILENAME = "my_feature_list.pkl"
+
+CLF_PICKLE_FILENAME = "C:/Users/WorkStation/Documents/GitHub/ud120-projects/final_project/my_classifier.pkl"
+DATASET_PICKLE_FILENAME = "C:/Users/WorkStation/Documents/GitHub/ud120-projects/final_project/my_dataset.pkl"
+FEATURE_LIST_FILENAME = "C:/Users/WorkStation/Documents/GitHub/ud120-projects/final_project/my_feature_list.pkl"
 
 def dump_classifier_and_data(clf, dataset, feature_list):
     with open(CLF_PICKLE_FILENAME, "w") as clf_outfile:

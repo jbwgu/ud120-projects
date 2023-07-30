@@ -9,7 +9,8 @@ import joblib
 import numpy
 import matplotlib.pyplot as plt
 import sys
-sys.path.append(os.path.abspath("../tools/"))
+#sys.path.append("../tools/")
+sys.path.insert(0, 'C:/Users/WorkStation/Documents/GitHub/ud120-projects/tools')
 from feature_format import featureFormat, targetFeatureSplit
 
 def Draw(pred, features, poi, mark_poi=False, name="image.png", f1_name="feature 1", f2_name="feature 2"):
@@ -34,7 +35,7 @@ def Draw(pred, features, poi, mark_poi=False, name="image.png", f1_name="feature
 
 
 ### load in the dict of dicts containing all the data on each person in the dataset
-data_dict = joblib.load( open("../final_project/final_project_dataset.pkl", "rb") )
+data_dict = joblib.load( open("C:/Users/WorkStation/Documents/GitHub/ud120-projects/final_project/final_project_dataset.pkl", "r") )
 ### there's an outlier--remove it! 
 data_dict.pop("TOTAL", 0)
 
@@ -60,8 +61,10 @@ plt.show()
 ### cluster here; create predictions of the cluster labels
 ### for the data and store them to a list called pred
 
+from sklearn.cluster import KMeans
 
-
+kmeans = KMeans(n_clusters=2, random_state=0).fit(finance_features)
+pred = kmeans.predict(finance_features)
 
 ### rename the "name" parameter when you change the number of features
 ### so that the figure gets saved to a different file
