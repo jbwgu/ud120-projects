@@ -11,18 +11,17 @@
 import sys
 from time import time
 #sys.path.append("../tools/")
-sys.path.insert(0, 'C:/Users/WorkStation/Documents/GitHub/ud120-projects/tools')
+# sys.path.insert(0, 'C:/Users/WorkStation/Documents/GitHub/ud120-projects/tools')
+sys.path.insert(0, 'C:/Users/jtayl/Documents/GitHub/ud120-projects/tools')
 from email_preprocess import preprocess
 from sklearn import tree
+
 
 
 ### features_train and features_test are the features for the training
 ### and testing datasets, respectively
 ### labels_train and labels_test are the corresponding item labels
 features_train, features_test, labels_train, labels_test = preprocess()
-
-
-
 
 #########################################################
 ### your code goes here ###

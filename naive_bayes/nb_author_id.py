@@ -13,7 +13,8 @@
 import sys
 from time import time
 #sys.path.append("../tools/")
-sys.path.insert(0, 'C:/Users/WorkStation/Documents/GitHub/ud120-projects/tools')
+# sys.path.insert(0, 'C:/Users/WorkStation/Documents/GitHub/ud120-projects/tools')
+sys.path.insert(0, 'C:/Users/jtayl/Documents/GitHub/ud120-projects/tools')
 from email_preprocess import preprocess
 
 
