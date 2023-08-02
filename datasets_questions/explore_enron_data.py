@@ -93,6 +93,3 @@ print("New number of people with NaN for their total payments: ", total_payments
 
 # what is the new number of POI's with "NaN" for their total payments?
 print("New number of POIs with NaN for their total payments: ", poi_total_payments_count+10)
-
-
-
