@@ -72,3 +72,66 @@ try:
     Draw(pred, finance_features, poi, mark_poi=False, name="clusters.pdf", f1_name=feature_1, f2_name=feature_2)
 except NameError:
     print("No predictions object named pred found, no clusters to plot")
+
+# Cluster with 3 features
+feature_1 = "salary"
+feature_2 = "exercised_stock_options"
+feature_3 = "total_payments"
+poi  = "poi"
+features_list = [poi, feature_1, feature_2]
+features_list = [poi, feature_1, feature_2, feature_3]
+data = featureFormat(data_dict, features_list )
+poi, finance_features = targetFeatureSplit( data )
+for f1, f2, _ in finance_features:
+    plt.scatter( f1, f2 )
+plt.show()
+kmeans = KMeans(n_clusters=2, random_state=0).fit(finance_features)
+pred = kmeans.predict(finance_features)
+try:
+    Draw(pred, finance_features, poi, mark_poi=False, name="clusters_3.pdf", f1_name=feature_1, f2_name=feature_2)
+except NameError:
+    print("No predictions object named pred found, no clusters to plot")
+
+# Feature scaling
+from sklearn.preprocessing import MinMaxScaler
+scaler = MinMaxScaler()
+scaler.fit(finance_features)
+# print(scaler.transform([[200000., 1000000.]]))
+
+# Quiz: Stock Option Range
+exercised_stock_options = []
+for key in data_dict:
+    if data_dict[key]['exercised_stock_options'] != 'NaN':
+        exercised_stock_options.append(data_dict[key]['exercised_stock_options'])
+print('min exercised_stock_options: ', min(exercised_stock_options))
+print('max exercised_stock_options: ', max(exercised_stock_options))
+
+# Quiz: Salary Range
+salary = []
+for key in data_dict:
+    if data_dict[key]['salary'] != 'NaN':
+        salary.append(data_dict[key]['salary'])
+print('min salary: ', min(salary))
+print('max salary: ', max(salary))
+
+# Clustering changes
+feature_1 = "salary"
+feature_2 = "exercised_stock_options"
+feature_3 = "total_payments"
+poi  = "poi"
+# features_list = [poi, feature_1, feature_2]
+features_list = [poi, feature_1, feature_2, feature_3]
+data = featureFormat(data_dict, features_list )
+poi, finance_features = targetFeatureSplit( data )
+scaler = MinMaxScaler()
+scaler.fit(finance_features)
+finance_features = scaler.transform(finance_features)
+for f1, f2, _ in finance_features:
+    plt.scatter( f1, f2 )
+plt.show()
+kmeans = KMeans(n_clusters=2, random_state=0).fit(finance_features)
+pred = kmeans.predict(finance_features)
+try:
+    Draw(pred, finance_features, poi, mark_poi=False, name="clusters_3_scaled.pdf", f1_name=feature_1, f2_name=feature_2)
+except NameError:
+    print("No predictions object named pred found, no clusters to plot")
