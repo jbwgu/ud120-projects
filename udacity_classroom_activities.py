@@ -39,3 +39,14 @@ acc = accuracy_score(pred, labels_test)
 
 def submitAccuracy():
     return acc
+
+data = [115, 140, 175]
+
+scaled_data = []
+
+for item in data:
+    scaled_data.append((item - min(data)) / float(max(data) - min(data)))
+
+
+
+
