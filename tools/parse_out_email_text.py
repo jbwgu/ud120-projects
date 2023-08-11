@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+import nltk
 from nltk.stem.snowball import SnowballStemmer
 import string
 

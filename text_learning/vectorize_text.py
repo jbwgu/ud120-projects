@@ -6,7 +6,8 @@ import re
 import sys
 import os
 
-sys.path.append(os.path.abspath("../tools/"))
+# sys.path.append(os.path.abspath("../tools/"))
+sys.path.insert(0, 'C:/Users/WorkStation/Documents/GitHub/ud120-projects/tools')
 from parse_out_email_text import parseOutText
 
 """
@@ -22,10 +23,14 @@ from parse_out_email_text import parseOutText
 
     The data is stored in lists and packed away in pickle files at the end.
 """
+# No module named nltk
 
 
-from_sara  = open("from_sara.txt", "r")
-from_chris = open("from_chris.txt", "r")
+
+
+
+from_sara  = open("C:/Users/WorkStation/Documents/GitHub/ud120-projects/text_learning/from_sara.txt", "r")
+from_chris = open("C:/Users/WorkStation/Documents/GitHub/ud120-projects/text_learning/from_chris.txt", "r")
 
 from_data = []
 word_data = []
@@ -44,9 +49,10 @@ for name, from_person in [("sara", from_sara), ("chris", from_chris)]:
         ### once everything is working, remove this line to run over full dataset
         temp_counter += 1
         if temp_counter < 200:
-	        path = os.path.join('..', path[:-1])
-	        print(path)
-	        email = open(path, "r")
+            path = os.path.join('C:/Users/WorkStation/Documents/GitHub/ud120-projects', path[:-1])
+            print(path)
+
+            email = open(path, "r")
 
 	        ### use parseOutText to extract the text from the opened email
 
@@ -61,7 +67,7 @@ for name, from_person in [("sara", from_sara), ("chris", from_chris)]:
 	        ### append a 0 to from_data if email is from Sara, and 1 if email is from Chris
 
 
-	        email.close()
+            email.close()
 
 print("Emails Processed")
 from_sara.close()
