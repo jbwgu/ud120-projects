@@ -52,5 +52,15 @@ sys.path.insert(0, 'C:/Users/WorkStation/Documents/GitHub/ud120-projects/tools')
 
 
 from nltk.corpus import stopwords
-sw = stopwords.words("english")
-print(len(sw))
+from nltk.stem.snowball import SnowballStemmer
+
+stemmer = SnowballStemmer("english")
+st = stemmer.stem("responsiveness")
+print(st)
+st = stemmer.stem("responsivity")
+print(st)   
+st = stemmer.stem("unresponsive")
+print(st)
+
+# sw = stopwords.words("english")
+# print(len(sw))
