@@ -15,8 +15,9 @@ import sys
 from sklearn.model_selection import StratifiedShuffleSplit
 import os
 
-sys.path.insert(0, 'C:/Users/WorkStation/Documents/GitHub/ud120-projects/tools')
-# sys.path.append(os.path.abspath(("../tools/")))
+# Modify path for review
+# sys.path.insert(0, 'C:/Users/WorkStation/Documents/GitHub/ud120-projects/tools')
+sys.path.append(os.path.abspath(("../tools/")))
 from feature_format import featureFormat, targetFeatureSplit
 
 PERF_FORMAT_STRING = "\

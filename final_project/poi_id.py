@@ -18,14 +18,17 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
 
-sys.path.insert(0, 'C:/Users/WorkStation/Documents/GitHub/ud120-projects/tools')
+# Modify path for review
+# sys.path.insert(0, 'C:/Users/WorkStation/Documents/GitHub/ud120-projects/tools')
+sys.path.append(os.path.abspath(("../tools/")))
 
 from feature_format import featureFormat, targetFeatureSplit
 from tester import dump_classifier_and_data
 
 # Set working directory
-new_dir = "C:/Users/WorkStation/Documents/GitHub/ud120-projects/final_project/"
-os.chdir(new_dir)
+# Modified for review
+# new_dir = "C:/Users/WorkStation/Documents/GitHub/ud120-projects/final_project/"
+# os.chdir(new_dir)
 
 ### Task 1: Select what features you'll use.
 ### features_list is a list of strings, each of which is a feature name.
