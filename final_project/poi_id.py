@@ -21,7 +21,7 @@ from sklearn import svm
 # Modify path for review
 # sys.path.insert(0, 'C:/Users/WorkStation/Documents/GitHub/ud120-projects/tools')
 sys.path.append(os.path.abspath(("../tools/")))
-
+print(sys.path)
 from feature_format import featureFormat, targetFeatureSplit
 from tester import dump_classifier_and_data
 
